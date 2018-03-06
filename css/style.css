@@ -1,0 +1,51 @@
+/*
+ *
+ * General
+ *
+ */
+
+body {
+  width: 90%;
+  margin: auto;
+  font-size: 16px;
+  line-height: normal;
+  font-family: 'Lato', sans-serif;
+}
+
+.division__section {
+    width: 100%;
+    text-align: right;
+} 
+
+/*
+ *
+ * Header
+ *
+ */
+
+.header {
+  display: block;
+  text-align: right;
+  min-height: 106px;
+  transition: min-height 0.3s;
+}
+
+.header h1 {
+  margin-top: 0.5%;
+}
+
+.image__section {
+  width: 100%;
+  text-align: right;
+}
+
+/*
+ *
+ * Main
+ *
+ */
+
+.container {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+    width: 100%;
+}
