@@ -9,13 +9,12 @@ body {
   margin: auto;
   font-size: 16px;
   line-height: normal;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
-.division__section {
-    width: 100%;
-    text-align: right;
-} 
+.division {
+  text-align: right;
+}
 
 /*
  *
@@ -35,17 +34,21 @@ body {
 }
 
 .image__section {
-  width: 100%;
+  /* width: 100%; */
   text-align: right;
 }
 
 /*
  *
- * Main
+ * Container
  *
  */
 
+.image__section img {
+  width: 100%;
+}
+
 .container {
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
-    width: 100%;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+    width: 100%; */
 }
