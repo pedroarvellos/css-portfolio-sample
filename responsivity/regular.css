@@ -1,0 +1,15 @@
+@media screen and (max-width: 1199px) {
+
+  .image__section {
+    width: 100%;
+  }
+
+  .quotes__article {
+      display: none;
+  }
+
+  .personal__section {
+      /* margin: 5%; */
+      padding: 5%;
+  }
+}

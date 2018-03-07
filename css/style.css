@@ -39,15 +39,15 @@ body {
   color: #2d3c49;
 }
 
-.image__section {
-  text-align: right;
-}
-
 /*
  *
  * Container
  *
  */
+
+.image__section {
+  text-align: right;
+}
 
 .image__section img {
   width: 100%;
@@ -55,47 +55,59 @@ body {
 
 .quotes__article {
   box-shadow: 0 2px 1px rgba(0, 0, 0, 0.26);
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 
-.quotes__div {
+.quotes {
   width: 80%;
   margin: auto;
 }
 
-.quotes__div div {
+.quotes div {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 2em;
   color: #7d97ad;
 }
 
-.quotes__div p {
+.quotes p {
   font-style: italic;
   font-size: 1em;
   color: rgba(31, 30, 30, 0.705);
+  max-height: 80%;
 }
 
 /*
  *
- * Personal Info
+ * Personal
  *
  */
 
- .personal__info__section {
+ .personal__section {
   margin-top: 2em;
  }
 
-.personal__info__section div {
+.personal__section div {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1.5em;
   color: #7d97ad;
 }
 
-.personal__info__section div p {
+.personal__section div p {
   font-family: 'Roboto', sans-serif;
   color: rgba(31, 30, 30, 0.705);
   font-size: 0.8em;
 }
+
+.personal__section ul {
+  font-size: 0.9em;
+  color: rgba(31, 30, 30, 0.705);
+}
+
+/*
+ *
+ * Reference
+ *
+ */
 
 .reference__section div {
   font-family: 'Open Sans Condensed', sans-serif;
@@ -110,7 +122,12 @@ body {
 }
 
 .reference__images {
-  text-align: right;
+  text-align: center;
+}
+
+.reference__images a {
+  text-align: center;
+  text-decoration:none;
 }
 
 .reference__section img {
@@ -119,6 +136,12 @@ body {
 
 /*
  *
- * Section
+ * Footer
  *
  */
+
+ footer div{
+   margin-top: 5%;
+   position: relative;
+   text-align: center;
+ }

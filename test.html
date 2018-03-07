@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<!-- saved from url=(0079)https://storage.googleapis.com/supplemental_media/udacityu/2872198565/test.html -->
-<html>
+<html lang="en-us">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./css/grid.css">
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="./css/grid-md.css">
+    <link rel="stylesheet" href="./css/grid-sm.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/responsivity.css">
+    <!-- Responsive Sheets -->
+    <link rel="stylesheet" href="./responsivity/regular.css">
+    <!-- Normalize -->
     <link rel="stylesheet" srs="normalize-css.googlecode.com/svn/trunk/normalize.css">
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <title>Portfolio</title>
@@ -18,61 +22,98 @@
 <body>
     <header class="header row">
         <div class="header__name">Pedro Arvellos</div>
-        <div class="header__occupation">My Occupation</div>
+        <div class="header__occupation">Full-Stack Developer</div>
     </header>
 
     <div class="division row">
-        <div class="col-3"></div>
-        <div class="col-9">
+        <div class="col-md-3"></div>
+        <div class="col-md-9">
             <hr>
         </div>
     </div>
 
     <section class="container row">
-        <article class="quotes__article col-3">
-            <div class="quotes__div">
+        <article class="quotes__article col-md-3">
+            <div class="quotes">
                 <div>Quotes</div>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation nisi ut aliquip ex ea commodo."</p>
+                <p>"Every great dream begins with a dreamer. Always remember, you have within you the strength, the patience,
+                    and the passion to reach for the stars to change the world." (Harriet Tubman)</p>
             </div>
         </article>
-        <section class="image__section col-9">
+        <section class="image__section col-md-9">
             <img src="https://projetodraft.com/draft/wp-content/uploads/2017/08/full-stacker-871x570.jpg" alt="Full-Stack Developer">
         </section>
     </section>
 
-    <section class="personal__info__section row">
-        <div class="col-3">
+    <section class="personal__section row">
+        <div class="col-md-3">
         </div>
-        <div class="col-9">
+        <div class="col-md-9">
             <div>About me</div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation nisi ut aliquip ex ea commodo.</p>
+            <p>I believe every hard working person has the ability to learn, implement and improve anything. As I had the privilege
+                to develop greatly my ability of solving problems, communicating with diverse clients around the world and
+                developing low coupling and high cohesion web systems through well established, great and modern technologies,
+                I really think I've got to add in a good way when it comes to working for a company. I'm eager to learn new
+                things and I'm completly sure I have infinite things to learn, and, by the way, that's what makes me feel
+                exctided.
+            </p>
+            <p>
+                It's greatly demanded, nowadays, the implementation of multiple cutting-edge technologies, and, therefore, it can be listed
+                as personal development experiences, the following ones:
+            </p>
+
+            <ul>
+                <li>Experience with Java and other development languages such as C and C++;</li>
+                <li>Experience developing Java EE applications using Spring MVC / Spring Boot, RESTful web services, etc.</li>
+                <li>Acceptable knowledge of open source frameworks.</li>
+                <li>Experience with source code management systems such as Git, build tools such as Maven;</li>
+                <li>Experience in relational databases, data design, indexing, querying and configuration with MySQL, PostgreSQL
+                    and SQL Server; </li>
+                <li>Acceptable Knowledge of Internet and networking technologies and protocols, i.e. IP, TCP, DNS, HTTP;</li>
+                <li>Experience with web technologies and frameworks such as HTML5, CSS3, JavaScript, jQuery;</li>
+                <li>Experience of building single page web applications using modern frameworks like Vue.js and Angular 2+;</li>
+                <li>Experience of working in a Agile environment.</li>
+                <li>Exposure to virtualization or container technology and tools such as VMWare;</li>
+                <li>Ability to identify and manage, resolve or negate, issues and risks & troubleshooting, cross system environment.</li>
+            </ul>
         </div>
     </section>
     <section class="reference__section row">
-        <div class="col-3">
+        <div class="col-md-3">
         </div>
-        <div class="col-9">
+        <div class="col-md-9">
             <div>Links</div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation nisi ut aliquip ex ea commodo.</p>
+            <p>Please, do not hesitate to contact me:</p>
             <div class="row reference__images">
-                <fig class="col-3 reference__linkedin">
-                    <img src="./img/linkedin.svg" alt="Linkedin Link">
-                    <figcaption>Linkedin</figcaption>
+                <fig class="col-md-3">
+                    <a href="https://linkedin.com/in/pedroarvellos" target="_blank">
+                        <img src="./img/linkedin.svg" alt="Linkedin Link">
+                        <figcaption>Linkedin</figcaption>
+                    </a>
                 </fig>
-                <fig class="col-3">
-                    <img src="./img/github.svg" alt="GitHub Link">
-                    <figcaption>GitHub</figcaption>
+                <fig class="col-md-3">
+                    <a href="https://github.com/pedroarvellos" target="_blank">
+                        <img src="./img/github.svg" alt="GitHub Link">
+                        <figcaption>GitHub</figcaption>
+                    </a>
                 </fig>
-                <fig class="col-3">
-                    <img src="./img/github.svg" alt="Github Link">
-                    <figcaption>GitHub</figcaption>
+                <fig class="col-md-3">
+                    <a href="https://www.facebook.com/pedroellos" target="_blank">
+                        <img src="./img/facebook.svg" alt="Facebook Link">
+                        <figcaption>Facebook</figcaption>
+                    </a>
                 </fig>
             </div>
         </div>
     </section>
 </body>
+<footer class="row">
+    <div class="col-md-12">
+        Icons made by
+        <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from
+        <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by
+        <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+    </div>
+</footer>
 
 </html>
