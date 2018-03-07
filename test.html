@@ -10,43 +10,68 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsivity.css">
     <link rel="stylesheet" srs="normalize-css.googlecode.com/svn/trunk/normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <title>Portfolio</title>
 </head>
 
 <body>
     <header class="header row">
-        <h1>Pedro Arvellos</h1>
-        <h2>My Occupation</h2>
+        <div class="header__name">Pedro Arvellos</div>
+        <div class="header__occupation">My Occupation</div>
     </header>
 
     <div class="division row">
-        <!-- <hr class="col-8"> -->
-        <p class="col-8">teste</p>
+        <div class="col-3"></div>
+        <div class="col-9">
+            <hr>
+        </div>
     </div>
 
     <section class="container row">
-        <article class="quotes__article col-4">
-            <h2>Quotes</h2>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation nisi ut aliquip ex ea commodo."</p>
+        <article class="quotes__article col-3">
+            <div class="quotes__div">
+                <div>Quotes</div>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation nisi ut aliquip ex ea commodo."</p>
+            </div>
         </article>
-        <section class="image__section col-8">
+        <section class="image__section col-9">
             <img src="https://projetodraft.com/draft/wp-content/uploads/2017/08/full-stacker-871x570.jpg" alt="Full-Stack Developer">
         </section>
     </section>
 
     <section class="personal__info__section row">
-        <h2>About me</h2>
-        <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation nisi ut aliquip ex ea commodo.</p>
+        <div class="col-3">
+        </div>
+        <div class="col-9">
+            <div>About me</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation nisi ut aliquip ex ea commodo.</p>
+        </div>
     </section>
     <section class="reference__section row">
-        <h2>Links</h2>
-        <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation nisi ut aliquip ex ea commodo.</p>
+        <div class="col-3">
+        </div>
+        <div class="col-9">
+            <div>Links</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation nisi ut aliquip ex ea commodo.</p>
+            <div class="row reference__images">
+                <fig class="col-3 reference__linkedin">
+                    <img src="./img/linkedin.svg" alt="Linkedin Link">
+                    <figcaption>Linkedin</figcaption>
+                </fig>
+                <fig class="col-3">
+                    <img src="./img/github.svg" alt="GitHub Link">
+                    <figcaption>GitHub</figcaption>
+                </fig>
+                <fig class="col-3">
+                    <img src="./img/github.svg" alt="Github Link">
+                    <figcaption>GitHub</figcaption>
+                </fig>
+            </div>
+        </div>
     </section>
 </body>
 
