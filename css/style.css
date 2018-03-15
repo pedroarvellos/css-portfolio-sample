@@ -125,6 +125,15 @@ body {
   text-align: center;
 }
 
+.reference__images figcaption{
+  text-align: center;
+  /* margin-left: 2%; */
+}
+
+.reference__images .image {
+  text-align: center;
+}
+
 .reference__images a {
   text-align: center;
   text-decoration:none;
