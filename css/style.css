@@ -1,0 +1,156 @@
+/*
+ *
+ * General
+ *
+ */
+
+body {
+  width: 90%;
+  margin: auto;
+  font-size: 16px;
+  line-height: normal;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 3%;
+}
+
+/*
+ *
+ * Header
+ *
+ */
+
+.header {
+  display: block;
+  text-align: right;
+  min-height: 15%;
+  transition: min-height 0.3s;
+}
+
+.header__name {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 4em;
+  margin-top: 1%;
+  color: #2d3c49;
+}
+
+.header__occupation {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2em;
+  color: #2d3c49;
+}
+
+/*
+ *
+ * Container
+ *
+ */
+
+.image__section {
+  text-align: right;
+}
+
+.image__section img {
+  width: 100%;
+}
+
+.quotes__article {
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.26);
+  margin-bottom: 6px;
+}
+
+.quotes {
+  width: 80%;
+  margin: auto;
+}
+
+.quotes div {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2em;
+  color: #7d97ad;
+}
+
+.quotes p {
+  font-style: italic;
+  font-size: 1em;
+  color: rgba(31, 30, 30, 0.705);
+  max-height: 80%;
+}
+
+/*
+ *
+ * Personal
+ *
+ */
+
+ .personal__section {
+  margin-top: 2em;
+ }
+
+.personal__section div {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.5em;
+  color: #7d97ad;
+}
+
+.personal__section div p {
+  font-family: 'Roboto', sans-serif;
+  color: rgba(31, 30, 30, 0.705);
+  font-size: 0.8em;
+}
+
+.personal__section ul {
+  font-size: 0.9em;
+  color: rgba(31, 30, 30, 0.705);
+}
+
+/*
+ *
+ * Reference
+ *
+ */
+
+.reference__section div {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.5em;
+  color: #7d97ad;
+}
+
+.reference__section div p {
+  font-family: 'Roboto', sans-serif;
+  color: rgba(31, 30, 30, 0.705);
+  font-size: 0.8em;
+}
+
+.reference__images {
+  text-align: center;
+}
+
+.reference__images figcaption{
+  text-align: center;
+  /* margin-left: 2%; */
+}
+
+.reference__images .image {
+  text-align: center;
+}
+
+.reference__images a {
+  text-align: center;
+  text-decoration:none;
+}
+
+.reference__section img {
+  width: 50%;
+}
+
+/*
+ *
+ * Footer
+ *
+ */
+
+ footer div{
+   margin-top: 5%;
+   position: relative;
+   text-align: center;
+ }

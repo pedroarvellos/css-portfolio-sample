@@ -1,0 +1,61 @@
+@media screen and (max-width: 1199px) {
+  .image__section {
+    width: 100%;
+  }
+
+  .quotes__article {
+    display: none;
+  }
+
+  .personal__section {
+    padding: 5%;
+  }
+
+  .reference__section {
+    padding: 5%;
+    margin-top: -10%;
+  }
+  .col-md-9 {
+    flex: 100%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .personal__section {
+    padding: 5%;
+    font-size: 0.9em;
+  }
+
+  .reference__section {
+    padding: 5%;
+    margin-top: -10%;
+    font-size: 0.9em;
+  }
+
+  .reference__images figcaption{
+    text-align: center;
+  }
+
+  .reference__images .image {
+    text-align: center;
+  }
+
+  .icons__reference {
+    font-size: 0.9em;
+  }
+
+  .reference__images figcaption {
+    font-size: 80%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .col-md-3 {
+    flex: 100%;
+  }
+
+  .reference__section img {
+    width: 20%;
+    margin-top: 5%;
+  }
+}
